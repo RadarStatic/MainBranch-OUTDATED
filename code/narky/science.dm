@@ -6,6 +6,7 @@ datum/design/shrinkray
 	build_type = PROTOLATHE
 	materials = list("$metal" = 5000, "$glass" = 1000)
 	build_path = /obj/item/weapon/gun/energy/laser/sizeray/one
+	category = list("Weapon")
 
 datum/design/growthray
 	name = "Growth Ray"
@@ -15,6 +16,7 @@ datum/design/growthray
 	build_type = PROTOLATHE
 	materials = list("$metal" = 5000, "$glass" = 1000)
 	build_path = /obj/item/weapon/gun/energy/laser/sizeray/two
+	category = list("Weapon")
 
 datum/design/stethoscope
 	name = "Stethoscope"
@@ -24,6 +26,7 @@ datum/design/stethoscope
 	build_type = PROTOLATHE
 	materials = list("$metal" = 50)
 	build_path = /obj/item/clothing/tie/stethoscope
+	category = list("Misc","Medical Designs")
 
 datum/design/stethoscope_advanced
 	name = "Stethoscope (Advanced)"
@@ -33,3 +36,4 @@ datum/design/stethoscope_advanced
 	build_type = PROTOLATHE
 	materials = list("$metal" = 500)
 	build_path = /obj/item/clothing/tie/stethoscope/advanced
+	category = list("Misc","Medical Designs")

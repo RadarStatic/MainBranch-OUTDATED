@@ -24,6 +24,19 @@ Note: Must be placed west/left of and R&D console to function.
 	var/adamantine_amount = 0.0
 	var/efficiency_coeff
 
+	var/list/categories = list(
+								"Power Designs",
+								"Medical Designs",
+								"Bluespace Designs",
+								"Stock Parts",
+								"Equipement",
+								"Mining Designs",
+								"Electronics",
+								"Weapons",
+								"Ammo",
+								"Firing Pins"
+								)
+
 	reagents = new()
 
 

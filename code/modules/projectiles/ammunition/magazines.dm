@@ -59,6 +59,55 @@
 	max_ammo = 2
 	multiload = 0
 
+/obj/item/ammo_box/magazine/internal/cylinder/improvised
+	name = "improvised shotgun internal magazine"
+	desc = "This doesn't even exist"
+	ammo_type = /obj/item/ammo_casing/shotgun/improvised
+	caliber = "shotgun"
+	max_ammo = 1
+	multiload = 0
+
+/obj/item/ammo_box/magazine/internal/shotriot
+	name = "riot shotgun internal magazine"
+	desc = "Oh god, this shouldn't be here"
+	ammo_type = /obj/item/ammo_casing/shotgun/beanbag
+	caliber = "shotgun"
+	max_ammo = 6
+	multiload = 0
+
+/obj/item/ammo_box/magazine/internal/cylinder/grenadelauncher
+	name = "grenade launcher internal magazine"
+	ammo_type = /obj/item/ammo_casing/a40mm
+	caliber = "40mm"
+	max_ammo = 1
+
+/obj/item/ammo_box/magazine/internal/cylinder/grenadelauncher/multi
+	ammo_type = /obj/item/ammo_casing/a40mm
+	max_ammo = 6
+
+/obj/item/ammo_box/magazine/internal/cylinder/speargun
+	name = "speargun internal magazine"
+	ammo_type = /obj/item/ammo_casing/caseless/magspear
+	caliber = "speargun"
+	max_ammo = 1
+
+/obj/item/ammo_box/magazine/internal/boltaction
+	name = "bolt action rifle internal magazine"
+	desc = "Oh god, this shouldn't be here"
+	ammo_type = /obj/item/ammo_casing/a762
+	caliber = "a762"
+	max_ammo = 5
+	multiload = 1
+
+/obj/item/ammo_casing/caseless/magspear
+	name = "magnetic spear"
+	desc = "A reusable spear that is typically loaded into kinetic spearguns."
+	projectile_type = /obj/item/projectile/bullet/magspear
+	caliber = "speargun"
+	icon_state = "magspear"
+	throwforce = 15 //still deadly when thrown
+	throw_speed = 3
+
 ///////////EXTERNAL MAGAZINES////////////////
 /obj/item/ammo_box/magazine/m9mm
 	name = "handgun magazine (9mm)"

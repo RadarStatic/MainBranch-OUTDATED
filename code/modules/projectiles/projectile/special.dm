@@ -23,6 +23,17 @@
 		explosion(target, -1, 0, 2)
 		return 1
 
+/obj/item/projectile/bullet/a40mm
+	name ="40mm grenade"
+	desc = "USE A WEEL GUN"
+	icon_state= "bolter"
+	damage = 60
+	flag = "bullet"
+
+/obj/item/projectile/bullet/a40mm/on_hit(atom/target, blocked = 0)
+	explosion(target, -1, 0, 2, 1, 0, flame_range = 3)
+	return 1
+
 /obj/item/projectile/temp
 	name = "freeze beam"
 	icon_state = "ice_2"
@@ -149,3 +160,20 @@ obj/item/projectile/kinetic/New()
 /obj/item/effect/kinetic_blast/New()
 	spawn(4)
 		qdel(src)
+
+/obj/item/projectile/bullet/magspear
+	name = "magnetic spear"
+	desc = "WHITE WHALE, HOLY GRAIL"
+	damage = 30 //takes 3 spears to kill a mega carp, one to kill a normal carp
+	icon_state = "magspear"
+
+/obj/item/projectile/bullet/magspear/on_hit(var/atom/target, var/blocked = 0)
+	if(!proj_hit)
+		proj_hit = 1
+		new /obj/item/ammo_casing/caseless/magspear(src.loc)
+	..()
+
+/obj/item/projectile/bullet/magspear/on_range()
+	if(!proj_hit)
+		new /obj/item/ammo_casing/caseless/magspear(src.loc)
+		..()

@@ -106,6 +106,22 @@
 	pellets = 4
 	variance = 0.9
 
+/obj/item/ammo_casing/a40mm
+	name = "40mm HE shell"
+	desc = "A cased high explosive grenade that can only be activated once fired out of a grenade launcher."
+	caliber = "40mm"
+	icon_state = "40mmHE"
+	projectile_type = /obj/item/projectile/bullet/a40mm
+
+/obj/item/ammo_casing/shotgun/improvised
+	name = "improvised shell"
+	desc = "An extremely weak shotgun shell with multiple small pellets made out of metal shards."
+	icon_state = "gshell"
+	projectile_type = /obj/item/projectile/bullet/pellet/weak
+	m_amt = 250
+	pellets = 5
+	variance = 0.8
+
 /obj/item/ammo_casing/shotgun/techshell
 	name = "unloaded technological shell"
 	desc = "A high-tech shotgun shell which can be loaded with materials to produce unique effects."

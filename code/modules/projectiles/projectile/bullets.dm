@@ -12,6 +12,8 @@
 	stun = 5
 	weaken = 5
 
+/obj/item/projectile/bullet/pellet/weak
+	damage = 3
 
 /obj/item/projectile/bullet/weakbullet2
 	damage = 15
