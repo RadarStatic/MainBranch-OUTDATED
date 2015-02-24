@@ -7,3 +7,10 @@
 # NOTE: if the rank-name cannot be found in admin_ranks.txt, they will not be adminned! ~Carn #
 # NOTE: syntax was changed to allow hyphenation of ranknames, since spaces are stripped.      #
 ###############################################################################################
+jayehh = Host
+ADK09 = Game Admin
+Poojawa = Adminsune
+ChaosRoseWitch = Game Admin
+Brimcon = Game Admin
+nebulacallisto = Game Admin
+leonleonardo = Game Admin
