@@ -1748,11 +1748,11 @@
 				message_admins("<span class='userdanger'>[key_name_admin(usr)] changed the bomb cap to [MAX_EX_DEVESTATION_RANGE], [MAX_EX_HEAVY_RANGE], [MAX_EX_LIGHT_RANGE]</span>", 1)
 				log_admin("[key_name(usr)] changed the bomb cap to [MAX_EX_DEVESTATION_RANGE], [MAX_EX_HEAVY_RANGE], [MAX_EX_LIGHT_RANGE]")
 
-			if("lightsout")
+			/*if("lightsout")
 				feedback_inc("admin_secrets_fun_used",1)
 				feedback_add_details("admin_secrets_fun_used","LO")
 				message_admins("[key_name_admin(usr)] has broke a lot of lights", 1)
-				E = new /datum/round_event/electrical_storm{lightsoutAmount = 2}()
+				E = new /datum/round_event/electrical_storm{lightsoutAmount = 2}()*/
 			if("blackout")
 				feedback_inc("admin_secrets_fun_used",1)
 				feedback_add_details("admin_secrets_fun_used","BO")

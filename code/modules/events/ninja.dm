@@ -1098,12 +1098,12 @@ Not sure why this would be useful (it's not) but whatever. Ninjas need their smo
 /*Shoots ninja stars at random people.
 This could be a lot better but I'm too tired atm.*/
 /obj/item/clothing/suit/space/space_ninja/proc/ninjastar()
-	set name = "Energy Star (5E)"
+	set name = "Energy Star (20E)"
 	set desc = "Launches an energy star at a random living target."
 	set category = "Ninja Ability"
 	set popup_menu = 0
 
-	var/C = 50
+	var/C = 200
 	if(!ninjacost(C))
 		var/mob/living/carbon/human/U = affecting
 		var/targets[] = list()//So yo can shoot while yo throw dawg
