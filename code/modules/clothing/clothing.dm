@@ -78,11 +78,42 @@ BLIND     // can't see anything
 	body_parts_covered = HEAD
 	slot_flags = SLOT_MASK
 	var/alloweat = 0
+	var/ignore_maskadjust = 1
+	var/adjusted_flags = null
+	var/mask_adjusted = 0
 
 
 //Override this to modify speech like luchador masks.
 /obj/item/clothing/mask/proc/speechModification(message)
 	return message
+
+//Proc that moves gas/breath masks out of the way, disabling them and allowing pill/food consumption
+/obj/item/clothing/mask/proc/adjustmask(var/mob/user)
+	if(!ignore_maskadjust)
+		if(!user.canmove || user.stat || user.restrained())
+			return
+		if(src.mask_adjusted == 1)
+			src.icon_state = initial(icon_state)
+			gas_transfer_coefficient = initial(gas_transfer_coefficient)
+			permeability_coefficient = initial(permeability_coefficient)
+			flags |= visor_flags
+			flags_inv |= visor_flags_inv
+			user << "You push \the [src] back into place."
+			src.mask_adjusted = 0
+			slot_flags = initial(slot_flags)
+		else
+			src.icon_state += "_up"
+			user << "You push \the [src] out of the way."
+			gas_transfer_coefficient = null
+			permeability_coefficient = null
+			flags &= ~visor_flags
+			flags_inv &= ~visor_flags_inv
+			src.mask_adjusted = 1
+			if(adjusted_flags)
+				slot_flags = adjusted_flags
+		usr.update_inv_wear_mask()
+
+
 
 //Shoes
 /obj/item/clothing/shoes
