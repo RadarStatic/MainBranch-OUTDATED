@@ -134,3 +134,5 @@
 		var/obj/Loc=loc
 		Loc.on_log()
 
+/obj/proc/Deconstruct()
+	qdel(src)

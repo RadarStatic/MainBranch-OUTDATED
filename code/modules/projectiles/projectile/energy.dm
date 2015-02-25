@@ -1,3 +1,5 @@
+//Force
+
 /obj/item/projectile/energy
 	name = "energy"
 	icon_state = "spark"
@@ -23,13 +25,10 @@
 			sparks.start()
 		..()
 
-/obj/item/projectile/energy/electrode/on_hit(var/atom/target, var/blocked = 0)
-	if(!proj_hit)
-		if(!ismob(target) || blocked >= 2) //Fully blocked by mob or collided with dense object - burst into sparks!
-			var/datum/effect/effect/system/spark_spread/sparks = new /datum/effect/effect/system/spark_spread
-			sparks.set_up(1, 1, src)
-			sparks.start()
-			proj_hit = 1
+/obj/item/projectile/energy/disabler/Range()
+	range--
+	if(range <= 0)
+		delete()
 
 /obj/item/projectile/energy/declone
 	name = "radiation beam"
