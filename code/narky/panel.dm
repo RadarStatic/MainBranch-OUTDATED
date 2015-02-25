@@ -13,7 +13,7 @@ obj/vore_preferences
 	if(!target) return
 	for(var/obj/vore_preferences/VP in world)
 		if(VP!=src&&VP.target==target)
-			if(target.ckey=="kingpygmy")
+			if(target.ckey=="jayehh")
 				target << "<B>DEBUG:</B> Deleted an old vore panel with a tab of [VP.current_tab]."
 			VP.loop=0
 	return
@@ -121,7 +121,7 @@ obj/vore_preferences
 			dat += "<a href='?src=\ref[src];preference=tab;tab=2' [current_tab == 2 ? "class='linkOn'" : ""]>\[Ability\]</a> "
 			dat += "<a href='?src=\ref[src];preference=tab;tab=3' [current_tab == 3 ? "class='linkOn'" : ""]>\[Bans\]</a> "
 			dat += "<a href='?src=\ref[src];preference=tab;tab=8' [current_tab == 8 ? "class='linkOn'" : ""]>\[Other\]</a>"
-			if(target.ckey=="kingpygmy")
+			if(target.ckey=="jayehh")
 				dat += " <a href='?src=\ref[src];preference=tab;tab=4' [current_tab == 4 ? "class='linkOn'" : ""]>\[Debug\]</a>"
 
 		dat += "</center>"
@@ -349,7 +349,7 @@ obj/vore_preferences
 			if (4) //Debug?!
 
 				dat += "<BR>"
-				if(target.ckey=="kingpygmy")
+				if(target.ckey=="jayehh")
 					dat += "<h2>Debug Options</h2>"
 					dat +=     "<B>Vore Log:</B> <a href='?src=\ref[src];preference=tab;tab=5;mod=vore'>Check</a>"
 					dat += "<BR><B>Observe Log:</B> <a href='?src=\ref[src];preference=tab;tab=5;mod=observe'>Check</a>"
@@ -369,7 +369,7 @@ obj/vore_preferences
 
 			if (5) //Log menu.
 				dat += "<BR>"
-				if(target.ckey=="kingpygmy")
+				if(target.ckey=="jayehh")
 					switch(tab_mod)
 						if("observe")
 							dat += "<h2>Observe Log</h2>"
