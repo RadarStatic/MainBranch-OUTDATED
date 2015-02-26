@@ -23,7 +23,7 @@
 	..()
 
 /obj/mecha/working/ripley/firefighter
-	desc = "Standart APLU chassis was refitted with additional thermal protection and cistern."
+	desc = "A standard APLU chassis refitted with additional thermal protection and cistern."
 	name = "\improper APLU \"Firefighter\""
 	icon_state = "firefighter"
 	max_temperature = 65000
