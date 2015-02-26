@@ -1045,7 +1045,7 @@
 "aue" = (/obj/machinery/atmospherics/unary/vent_scrubber{dir = 8; icon_state = "off"; on = 1; scrub_N2O = 0; scrub_Toxins = 0},/turf/simulated/floor{icon_state = "grimy"},/area/security/detectives_office)
 "auf" = (/obj/machinery/camera{c_tag = "Detective's Office"; dir = 1},/obj/machinery/light/small,/turf/simulated/floor{icon_state = "grimy"},/area/security/detectives_office)
 "aug" = (/obj/machinery/computer/med_data,/turf/simulated/floor{icon_state = "grimy"},/area/security/detectives_office)
-"auh" = (/obj/structure/table/woodentable,/obj/machinery/newscaster{hitstaken = 1; pixel_x = 0; pixel_y = -32},/obj/item/device/tape/random,/turf/simulated/floor/wood,/area/lawoffice)
+"auh" = (/obj/structure/table/woodentable,/obj/machinery/newscaster{hitstaken = 0; pixel_x = 0; pixel_y = -32},/obj/item/device/tape/random,/turf/simulated/floor/wood,/area/lawoffice)
 "aui" = (/obj/structure/table/woodentable,/obj/item/device/taperecorder{pixel_y = 0},/obj/item/weapon/cartridge/lawyer,/turf/simulated/floor/wood,/area/lawoffice)
 "auj" = (/obj/structure/table/woodentable,/obj/machinery/camera{c_tag = "Law Office"; dir = 1; network = list("SS13")},/obj/item/weapon/paper_bin{pixel_x = -3; pixel_y = 7},/obj/item/weapon/pen,/obj/machinery/computer/security/telescreen{desc = "Used for watching Prison Wing holding areas."; dir = 1; name = "Prison Monitor"; network = list("Prison"); pixel_x = 0; pixel_y = -27},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/turf/simulated/floor/wood,/area/lawoffice)
 "auk" = (/obj/machinery/photocopier,/obj/machinery/door_control{id = "lawyer_blast"; name = "Privacy Shutters"; pixel_x = 25; pixel_y = 8},/turf/simulated/floor/wood,/area/lawoffice)
