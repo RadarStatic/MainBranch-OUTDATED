@@ -744,6 +744,7 @@ obj/machinery/computer/pandemic/proc/replicator_cooldown(var/waittime)
 								for(var/datum/symptom/S in A.symptoms)
 									english_symptoms += S.name
 								dat += english_list(english_symptoms)
+								dat += "<BR>"
 
 
 			dat += "<BR><b>Contains antibodies to:</b> "
