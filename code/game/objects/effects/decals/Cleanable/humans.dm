@@ -38,7 +38,7 @@
 /obj/effect/decal/cleanable/trail_holder //not a child of blood on purpose
 	name = "blood"
 	icon_state = "blank"
-	desc = "Your instincts say you shouldn't be following these."
+	desc = "Your instincts say you shouldn't be following this."
 	gender = PLURAL
 	density = 0
 	anchored = 1

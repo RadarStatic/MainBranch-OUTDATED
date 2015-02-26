@@ -111,7 +111,7 @@
 
 /obj/machinery/computer/security/wooden_tv
 	name = "security camera monitor"
-	desc = "An old TV hooked into the stations camera network."
+	desc = "An old TV hooked into the station's camera network."
 	icon_state = "security_det"
 
 
