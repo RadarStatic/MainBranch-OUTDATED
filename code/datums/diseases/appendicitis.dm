@@ -13,7 +13,7 @@
 	longevity = 1000
 	hidden = list(0, 1)
 	requires = 1
-	required_limb = list(/obj/item/organ/limb/chest)
+	required_limb = list(/obj/item/organ/limb/chest, /obj/item/organ/appendix)
 
 /datum/disease/appendicitis/stage_act()
 	..()
