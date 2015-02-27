@@ -11,6 +11,7 @@ datum/design/mass_spectrometer
 	materials = list("$metal" = 30, "$glass" = 20)
 	reliability = 76
 	build_path = /obj/item/device/mass_spectrometer
+	category = list("Medical Designs")
 
 datum/design/adv_mass_spectrometer
 	name = "Advanced Mass-Spectrometer"
@@ -21,6 +22,7 @@ datum/design/adv_mass_spectrometer
 	materials = list("$metal" = 30, "$glass" = 20)
 	reliability = 74
 	build_path = /obj/item/device/mass_spectrometer/adv
+	category = list("Medical Designs")
 
 datum/design/mmi
 	name = "Man-Machine Interface"
@@ -31,7 +33,7 @@ datum/design/mmi
 	materials = list("$metal" = 1000, "$glass" = 500)
 	reliability = 76
 	build_path = /obj/item/device/mmi
-	category = "Misc"
+	category = list("Misc","Medical Designs")
 
 datum/design/mmi_radio
 	name = "Radio-enabled Man-Machine Interface"
@@ -42,7 +44,7 @@ datum/design/mmi_radio
 	materials = list("$metal" = 1200, "$glass" = 500)
 	reliability = 74
 	build_path = /obj/item/device/mmi/radio_enabled
-	category = "Misc"
+	category = list("Misc","Medical Designs")
 
 datum/design/synthetic_flash
 	name = "Synthetic Flash"
@@ -64,7 +66,7 @@ datum/design/bluespacebeaker
 	materials = list("$metal" = 3000, "$plasma" = 3000, "$diamond" = 500)
 	reliability = 76
 	build_path = /obj/item/weapon/reagent_containers/glass/beaker/bluespace
-	category = "Misc"
+	category = list("Misc","Medical Designs")
 
 datum/design/noreactbeaker
 	name = "Cryostasis Beaker"
@@ -75,4 +77,4 @@ datum/design/noreactbeaker
 	materials = list("$metal" = 3000)
 	reliability = 76
 	build_path = /obj/item/weapon/reagent_containers/glass/beaker/noreact
-	category = "Misc"
+	category = list("Medical Designs")

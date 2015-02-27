@@ -37,6 +37,7 @@
 	icon_closed = "bodybag_closed"
 	icon_opened = "bodybag_open"
 	density = 0
+	anchored = 0
 
 
 /obj/structure/closet/body_bag/attackby(obj/item/I, mob/user)

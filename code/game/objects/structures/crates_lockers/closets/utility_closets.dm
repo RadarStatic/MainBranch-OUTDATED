@@ -162,6 +162,7 @@
 	icon_state = "bombsuit"
 	icon_closed = "bombsuit"
 	icon_opened = "bombsuitopen"
+	anchored = 0
 
 /obj/structure/closet/bombcloset/New()
 	..()
@@ -178,6 +179,7 @@
 	icon_state = "bombsuitsec"
 	icon_closed = "bombsuitsec"
 	icon_opened = "bombsuitsecopen"
+	anchored = 0
 
 /obj/structure/closet/bombclosetsecurity/New()
 	..()

@@ -10,7 +10,7 @@ datum/design/basic_cell
 	build_type = PROTOLATHE | AUTOLATHE |MECHFAB
 	materials = list("$metal" = 700, "$glass" = 50)
 	build_path = /obj/item/weapon/stock_parts/cell
-	category = "Misc"
+	category = list("Misc","Power Designs")
 
 datum/design/high_cell
 	name = "High-Capacity Power Cell"
@@ -20,7 +20,7 @@ datum/design/high_cell
 	build_type = PROTOLATHE | AUTOLATHE | MECHFAB
 	materials = list("$metal" = 700, "$glass" = 60)
 	build_path = /obj/item/weapon/stock_parts/cell/high
-	category = "Misc"
+	category = list("Misc","Power Designs")
 
 datum/design/super_cell
 	name = "Super-Capacity Power Cell"
@@ -31,7 +31,7 @@ datum/design/super_cell
 	build_type = PROTOLATHE | MECHFAB
 	materials = list("$metal" = 700, "$glass" = 70)
 	build_path = /obj/item/weapon/stock_parts/cell/super
-	category = "Misc"
+	category = list("Misc","Power Designs")
 
 datum/design/hyper_cell
 	name = "Hyper-Capacity Power Cell"
@@ -42,7 +42,7 @@ datum/design/hyper_cell
 	build_type = PROTOLATHE | MECHFAB
 	materials = list("$metal" = 400, "$gold" = 150, "$silver" = 150, "$glass" = 70)
 	build_path = /obj/item/weapon/stock_parts/cell/hyper
-	category = "Misc"
+	category = list("Misc","Power Designs")
 
 datum/design/light_replacer
 	name = "Light Replacer"
@@ -52,6 +52,7 @@ datum/design/light_replacer
 	build_type = PROTOLATHE
 	materials = list("$metal" = 1500, "$silver" = 150, "$glass" = 3000)
 	build_path = /obj/item/device/lightreplacer
+	category = list("Power Designs")
 
 datum/design/pacman
 	name = "Machine Design (PACMAN-type Generator Board)"
@@ -62,6 +63,7 @@ datum/design/pacman
 	reliability = 79
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/pacman
+	category = list("Engineering Machinery")
 
 datum/design/superpacman
 	name = "Machine Design (SUPERPACMAN-type Generator Board)"
@@ -72,6 +74,7 @@ datum/design/superpacman
 	reliability = 76
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/pacman/super
+	category = list("Engineering Machinery")
 
 datum/design/mrspacman
 	name = "Machine Design (MRSPACMAN-type Generator Board)"
@@ -82,3 +85,4 @@ datum/design/mrspacman
 	reliability = 74
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/pacman/mrs
+	category = list("Engineering Machinery")
