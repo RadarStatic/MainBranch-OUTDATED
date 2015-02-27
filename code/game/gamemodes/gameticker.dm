@@ -163,7 +163,7 @@ var/round_start_time = 0
 	if( cinematic )	return	//already a cinematic in progress!
 	auto_toggle_ooc(1) // Turn it on
 	//initialise our cinematic screen object
-	cinematic = new(src)
+	//cinematic = new(src)
 	//if(!cinematic)  //NOPE. This won't do nothin'. Issue is with assigning an icon. ~NYAR
 	//	world<<"<B>A CRASH WAS AVOIDED. CHANCE OR ERRORS: MINOR.</B>"
 	//	diary << "## Crash avoided in station_explosion_cinematic([station_missed],[override])"

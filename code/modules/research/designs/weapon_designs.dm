@@ -12,7 +12,6 @@ datum/design/nuclear_gun
 	reliability = 76
 	build_path = /obj/item/weapon/gun/energy/gun/nuclear
 	locked = 1
-	category = list("Weapons")
 
 datum/design/stunrevolver
 	name = "Stun Revolver"
@@ -23,7 +22,6 @@ datum/design/stunrevolver
 	materials = list("$metal" = 4000)
 	build_path = /obj/item/weapon/gun/energy/stunrevolver
 	locked = 1
-	category = list("Weapons")
 
 datum/design/lasercannon
 	name = "Laser Cannon"
@@ -34,7 +32,6 @@ datum/design/lasercannon
 	materials = list("$metal" = 10000, "$glass" = 2000, "$diamond" = 2000)
 	build_path = /obj/item/weapon/gun/energy/lasercannon
 	locked = 1
-	category = list("Weapons")
 
 datum/design/decloner
 	name = "Decloner"
@@ -45,7 +42,6 @@ datum/design/decloner
 	materials = list("$gold" = 5000,"$uranium" = 10000, "mutagen" = 40)
 	build_path = /obj/item/weapon/gun/energy/decloner
 	locked = 1
-	category = list("Weapons")
 /*
 datum/design/chemsprayer
 	name = "Chem Sprayer"
@@ -65,7 +61,6 @@ datum/design/rapidsyringe
 	build_type = PROTOLATHE
 	materials = list("$metal" = 5000, "$glass" = 1000)
 	build_path = /obj/item/weapon/gun/syringe/rapidsyringe
-	category = list("Weapons")
 /*
 datum/design/largecrossbow
 	name = "Energy Crossbow"
@@ -85,7 +80,6 @@ datum/design/temp_gun
 	materials = list("$metal" = 5000, "$glass" = 500, "$silver" = 3000)
 	build_path = /obj/item/weapon/gun/energy/temperature
 	locked = 1
-	category = list("Weapons")
 
 datum/design/flora_gun
 	name = "Floral Somatoray"
@@ -105,7 +99,6 @@ datum/design/large_grenade
 	materials = list("$metal" = 3000)
 	reliability = 79
 	build_path = /obj/item/weapon/grenade/chem_grenade/large
-	category = list("Weapons")
 
 datum/design/smg
 	name = "Submachine Gun"
@@ -116,7 +109,6 @@ datum/design/smg
 	materials = list("$metal" = 8000, "$silver" = 2000, "$diamond" = 1000)
 	build_path = /obj/item/weapon/gun/projectile/automatic
 	locked = 1
-	category = list("Weapons")
 
 datum/design/xray
 	name = "Xray Laser Gun"
@@ -127,7 +119,6 @@ datum/design/xray
 	materials = list("$gold" = 5000,"$uranium" = 10000, "$metal" = 4000)
 	build_path = /obj/item/weapon/gun/energy/xray
 	locked = 1
-	category = list("Weapons")
 
 datum/design/ionrifle
 	name = "Ion Rifle"
@@ -138,7 +129,6 @@ datum/design/ionrifle
 	materials = list("$silver" = 4000, "$metal" = 6000, "$uranium" = 1000)
 	build_path = /obj/item/weapon/gun/energy/ionrifle
 	locked = 1
-	category = list("Weapons")
 
 datum/design/ammo_9mm
 	name = "Ammunition Box (9mm)"
@@ -148,7 +138,6 @@ datum/design/ammo_9mm
 	build_type = PROTOLATHE
 	materials = list("$metal" = 2000)
 	build_path = /obj/item/ammo_box/c9mm
-	category = list("Ammo")
 
 datum/design/mag_smg
 	name = "Submachine Gun Magazine (9mm)"
@@ -159,8 +148,6 @@ datum/design/mag_smg
 	materials = list("$metal" = 2000)
 	build_path = /obj/item/ammo_box/magazine/msmg9mm
 
-	category = list("Ammo")
-
 datum/design/stunshell
 	name = "Stun Shell"
 	desc = "A stunning shell for a shotgun."
@@ -170,8 +157,6 @@ datum/design/stunshell
 	materials = list("$metal" = 200)
 	build_path = /obj/item/ammo_casing/shotgun/stunshell
 
-	category = list("Ammo")
-
 datum/design/techshell
 	name = "Unloaded Technological Shotshell"
 	desc = "A high-tech shotgun shell which can be loaded with materials to produce unique effects."
@@ -180,5 +165,3 @@ datum/design/techshell
 	build_type = PROTOLATHE
 	materials = list("$metal" = 1000, "$glass" = 200, "$silver" = 300)
 	build_path = /obj/item/ammo_casing/shotgun/techshell
-
-	category = list("Ammo")

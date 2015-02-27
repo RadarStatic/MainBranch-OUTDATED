@@ -10,7 +10,6 @@
 	icon_closed = "crate"
 	req_access = null
 	opened = 0
-	anchored = 0
 //	mouse_drag_pointer = MOUSE_ACTIVE_POINTER	//???
 	var/rigged = 0
 	var/sound_effect_open = 'sound/machines/click.ogg'
@@ -22,7 +21,6 @@
 	icon = 'icons/obj/storage.dmi'
 	icon_state = "o2crate"
 	density = 1
-	anchored = 0
 	icon_opened = "o2crateopen"
 	icon_closed = "o2crate"
 
@@ -32,7 +30,6 @@
 	icon = 'icons/obj/storage.dmi'
 	icon_state = "trashcart"
 	density = 1
-	anchored = 0
 	icon_opened = "trashcartopen"
 	icon_closed = "trashcart"
 
@@ -62,7 +59,6 @@
 	icon = 'icons/obj/storage.dmi'
 	icon_state = "medicalcrate"
 	density = 1
-	anchored = 0
 	icon_opened = "medicalcrateopen"
 	icon_closed = "medicalcrate"
 
@@ -72,7 +68,6 @@
 	icon = 'icons/obj/storage.dmi'
 	icon_state = "crate"
 	density = 1
-	anchored = 0
 	icon_opened = "crateopen"
 	icon_closed = "crate"
 
@@ -82,7 +77,6 @@
 	icon = 'icons/obj/storage.dmi'
 	icon_state = "freezer"
 	density = 1
-	anchored = 0
 	icon_opened = "freezeropen"
 	icon_closed = "freezer"
 	var/target_temp = T0C - 40
@@ -113,7 +107,6 @@
 	icon = 'icons/obj/storage.dmi'
 	icon_state = "radiation"
 	density = 1
-	anchored = 0
 	icon_opened = "radiationopen"
 	icon_closed = "radiation"
 
@@ -123,7 +116,6 @@
 	icon = 'icons/obj/storage.dmi'
 	icon_state = "weaponcrate"
 	density = 1
-	anchored = 0
 	icon_opened = "weaponcrateopen"
 	icon_closed = "weaponcrate"
 
@@ -133,7 +125,6 @@
 	icon = 'icons/obj/storage.dmi'
 	icon_state = "plasmacrate"
 	density = 1
-	anchored = 0
 	icon_opened = "plasmacrateopen"
 	icon_closed = "plasmacrate"
 
@@ -143,7 +134,6 @@
 	icon = 'icons/obj/storage.dmi'
 	icon_state = "secgearcrate"
 	density = 1
-	anchored = 0
 	icon_opened = "secgearcrateopen"
 	icon_closed = "secgearcrate"
 
@@ -153,7 +143,6 @@
 	icon = 'icons/obj/storage.dmi'
 	icon_state = "hydrosecurecrate"
 	density = 1
-	anchored = 0
 	icon_opened = "hydrosecurecrateopen"
 	icon_closed = "hydrosecurecrate"
 

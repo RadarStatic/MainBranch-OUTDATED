@@ -3,7 +3,6 @@
 	desc = "It's a storage unit for athletic wear."
 	icon_state = "mixed"
 	icon_closed = "mixed"
-	anchored = 0
 
 /obj/structure/closet/athletic_mixed/New()
 	..()
@@ -18,7 +17,6 @@
 /obj/structure/closet/boxinggloves
 	name = "boxing gloves"
 	desc = "It's a storage unit for gloves for use in the boxing ring."
-	anchored = 0
 
 /obj/structure/closet/boxinggloves/New()
 	..()

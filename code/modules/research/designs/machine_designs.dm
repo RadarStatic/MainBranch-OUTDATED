@@ -10,7 +10,6 @@ datum/design/smes
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/smes
-	category = list ("Engineering Machinery")
 
 datum/design/turbine_computer
 	name = "Computer Design (Power Turbine Console Board)"
@@ -20,7 +19,6 @@ datum/design/turbine_computer
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/turbine_computer
-	category = list ("Engineering Machinery")
 
 datum/design/power_compressor
 	name = "Machine Design (Power Compressor Board)"
@@ -30,7 +28,6 @@ datum/design/power_compressor
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/power_compressor
-	category = list ("Engineering Machinery")
 
 datum/design/power_turbine
 	name = "Machine Design (Power Turbine Board)"
@@ -40,7 +37,6 @@ datum/design/power_turbine
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/power_turbine
-	category = list ("Engineering Machinery")
 
 datum/design/teleport_station
 	name = "Machine Design (Teleportation Station Board)"
@@ -59,7 +55,6 @@ datum/design/teleport_hub
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/teleporter_hub
-	category = list ("Teleportation Machinery")
 
 datum/design/telepad
 	name = "Machine Design (Telepad Board)"
@@ -69,7 +64,6 @@ datum/design/telepad
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/telesci_pad
-	category = list ("Teleportation Machinery")
 
 datum/design/sleeper
 	name = "Machine Design (Sleeper Board)"
@@ -79,7 +73,6 @@ datum/design/sleeper
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/sleeper
-	category = list ("Medical Machinery")
 
 datum/design/cryotube
 	name = "Machine Design (Cryotube Board)"
@@ -89,7 +82,6 @@ datum/design/cryotube
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/cryo_tube
-	category = list ("Medical Machinery")
 
 datum/design/thermomachine
 	name = "Machine Design (Freezer/Heater Board)"
@@ -99,7 +91,6 @@ datum/design/thermomachine
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/thermomachine
-	category = list ("Engineering Machinery")
 
 datum/design/biogenerator
 	name = "Machine Design (Biogenerator Board)"
@@ -109,7 +100,6 @@ datum/design/biogenerator
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/biogenerator
-	category = list ("Hydroponics Machinery")
 
 datum/design/hydroponics
 	name = "Machine Design (Hydroponics Tray Board)"
@@ -119,7 +109,6 @@ datum/design/hydroponics
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/hydroponics
-	category = list ("Hydroponics Machinery")
 
 datum/design/microwave
 	name = "Machine Design (Microwave Board)"
@@ -129,7 +118,6 @@ datum/design/microwave
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/microwave
-	category = list ("Misc. Machinery")
 
 datum/design/chem_dispenser
 	name = "Machine Design (Portable Chem Dispenser Board)"
@@ -139,7 +127,6 @@ datum/design/chem_dispenser
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/chem_dispenser
-	category = list ("Medical Machinery")
 
 datum/design/destructive_analyzer
 	name = "Machine Design (Destructive Analyzer Board)"
@@ -149,7 +136,6 @@ datum/design/destructive_analyzer
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/destructive_analyzer
-	category = list("Research Machinery")
 
 datum/design/protolathe
 	name = "Machine Design (Protolathe Board)"
@@ -159,7 +145,6 @@ datum/design/protolathe
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/protolathe
-	category = list("Research Machinery")
 
 datum/design/circuit_imprinter
 	name = "Machine Design (Circuit Imprinter Board)"
@@ -169,7 +154,6 @@ datum/design/circuit_imprinter
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/circuit_imprinter
-	category = list("Research Machinery")
 
 datum/design/autolathe
 	name = "Machine Design (Autolathe Board)"
@@ -179,7 +163,6 @@ datum/design/autolathe
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/autolathe
-	category = list ("Misc. Machinery")
 
 datum/design/rdservercontrol
 	name = "Computer Design (R&D Server Control Console Board)"
@@ -189,7 +172,6 @@ datum/design/rdservercontrol
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/rdservercontrol
-	category = list("Research Machinery")
 
 datum/design/rdserver
 	name = "Machine Design (R&D Server Board)"
@@ -199,7 +181,6 @@ datum/design/rdserver
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/rdserver
-	category = list("Research Machinery")
 
 datum/design/mechfab
 	name = "Machine Design (Exosuit Fabricator Board)"
@@ -209,7 +190,6 @@ datum/design/mechfab
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/mechfab
-	category = list("Research Machinery")
 
 datum/design/cyborgrecharger
 	name = "Machine Design (Cyborg Recharger Board)"

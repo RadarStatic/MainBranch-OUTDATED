@@ -7,7 +7,6 @@
 	name = "ore box"
 	desc = "It's heavy"
 	density = 1
-	anchored = 0
 
 /obj/structure/ore_box/attackby(obj/item/weapon/W as obj, mob/user as mob)
 	if (istype(W, /obj/item/weapon/ore))

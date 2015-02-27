@@ -40,7 +40,6 @@
 	desc = "It's a storage unit for foodservice garments."
 	icon_state = "black"
 	icon_closed = "black"
-	anchored = 0
 
 /obj/structure/closet/chefcloset/New()
 	..()

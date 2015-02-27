@@ -17,7 +17,6 @@
 	icon_state = "acloset"
 	icon_closed = "acloset"
 	icon_opened = "aclosetopen"
-	anchored = 0
 
 
 /obj/structure/closet/gimmick

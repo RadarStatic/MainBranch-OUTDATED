@@ -10,7 +10,6 @@ datum/design/subspace_receiver
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/telecomms/receiver
-	category = list("Subspace Telecomms")
 
 datum/design/telecomms_bus
 	name = "Machine Design (Bus Mainframe)"
@@ -20,7 +19,6 @@ datum/design/telecomms_bus
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/telecomms/bus
-	category = list("Subspace Telecomms")
 
 datum/design/telecomms_hub
 	name = "Machine Design (Hub Mainframe)"
@@ -30,7 +28,6 @@ datum/design/telecomms_hub
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/telecomms/hub
-	category = list("Subspace Telecomms")
 
 datum/design/telecomms_relay
 	name = "Machine Design (Relay Mainframe)"
@@ -40,7 +37,6 @@ datum/design/telecomms_relay
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/telecomms/relay
-	category = list("Subspace Telecomms")
 
 datum/design/telecomms_processor
 	name = "Machine Design (Processor Unit)"
@@ -50,7 +46,6 @@ datum/design/telecomms_processor
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/telecomms/processor
-	category = list("Subspace Telecomms")
 
 datum/design/telecomms_server
 	name = "Machine Design (Server Mainframe)"
@@ -60,7 +55,6 @@ datum/design/telecomms_server
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/telecomms/server
-	category = list("Subspace Telecomms")
 
 datum/design/subspace_broadcaster
 	name = "Machine Design (Subspace Broadcaster)"
@@ -70,4 +64,3 @@ datum/design/subspace_broadcaster
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/telecomms/broadcaster
-	category = list("Subspace Telecomms")

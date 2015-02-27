@@ -10,7 +10,6 @@ datum/design/safeguard_module
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20, "$gold" = 100)
 	build_path = /obj/item/weapon/aiModule/supplied/safeguard
-	category = list("AI Modules")
 
 datum/design/onehuman_module
 	name = "Module Design (OneHuman)"
@@ -20,8 +19,6 @@ datum/design/onehuman_module
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20, "$diamond" = 100)
 	build_path = /obj/item/weapon/aiModule/zeroth/oneHuman
-	category = list("AI Modules")
-
 
 datum/design/protectstation_module
 	name = "Module Design (ProtectStation)"
@@ -31,7 +28,6 @@ datum/design/protectstation_module
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20, "$gold" = 100)
 	build_path = /obj/item/weapon/aiModule/supplied/protectStation
-	category = list("AI Modules")
 
 datum/design/quarantine_module
 	name = "Module Design (Quarantine)"
@@ -41,7 +37,6 @@ datum/design/quarantine_module
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20, "$gold" = 100)
 	build_path = /obj/item/weapon/aiModule/supplied/quarantine
-	category = list("AI Modules")
 
 datum/design/oxygen_module
 	name = "Module Design (OxygenIsToxicToHumans)"
@@ -51,7 +46,6 @@ datum/design/oxygen_module
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20, "$gold" = 100)
 	build_path = /obj/item/weapon/aiModule/supplied/oxygen
-	category = list("AI Modules")
 
 datum/design/freeform_module
 	name = "Module Design (Freeform)"
@@ -61,7 +55,6 @@ datum/design/freeform_module
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20, "$gold" = 100)
 	build_path = /obj/item/weapon/aiModule/supplied/freeform
-	category = list("AI Modules")
 
 datum/design/reset_module
 	name = "Module Design (Reset)"
@@ -71,7 +64,6 @@ datum/design/reset_module
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20, "$gold" = 100)
 	build_path = /obj/item/weapon/aiModule/reset
-	category = list("AI Modules")
 
 datum/design/purge_module
 	name = "Module Design (Purge)"
@@ -81,7 +73,6 @@ datum/design/purge_module
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20, "$diamond" = 100)
 	build_path = /obj/item/weapon/aiModule/reset/purge
-	category = list("AI Modules")
 
 datum/design/freeformcore_module
 	name = "Core Module Design (Freeform)"
@@ -91,7 +82,6 @@ datum/design/freeformcore_module
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20, "$diamond" = 100)
 	build_path = /obj/item/weapon/aiModule/core/freeformcore
-	category = list("AI Modules")
 
 datum/design/asimov
 	name = "Core Module Design (Asimov)"
@@ -101,7 +91,6 @@ datum/design/asimov
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20, "$diamond" = 100)
 	build_path = /obj/item/weapon/aiModule/core/full/asimov
-	category = list("AI Modules")
 
 datum/design/paladin_module
 	name = "Core Module Design (P.A.L.A.D.I.N.)"
@@ -111,7 +100,6 @@ datum/design/paladin_module
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20, "$diamond" = 100)
 	build_path = /obj/item/weapon/aiModule/core/full/paladin
-	category = list("AI Modules")
 
 datum/design/tyrant_module
 	name = "Core Module Design (T.Y.R.A.N.T.)"
@@ -121,7 +109,6 @@ datum/design/tyrant_module
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20, "$diamond" = 100)
 	build_path = /obj/item/weapon/aiModule/core/full/tyrant
-	category = list("AI Modules")
 
 datum/design/corporate_module
 	name = "Core Module Design (Corporate)"
@@ -131,7 +118,6 @@ datum/design/corporate_module
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20, "$diamond" = 100)
 	build_path = /obj/item/weapon/aiModule/core/full/corp
-	category = list("AI Modules")
 
 datum/design/custom_module
 	name = "Core Module Design (Custom)"
@@ -141,4 +127,3 @@ datum/design/custom_module
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20, "$diamond" = 100)
 	build_path = /obj/item/weapon/aiModule/core/full/custom
-	category = list("AI Modules")
