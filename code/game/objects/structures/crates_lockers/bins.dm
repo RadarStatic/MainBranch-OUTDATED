@@ -5,6 +5,7 @@
 	icon_state = "largebins"
 	density = 1
 	anchored = 0
+	layer = 3
 	icon_opened = "largebinsopen"
 	icon_closed = "largebins"
 	sound_effect_open = 'sound/effects/bin_open.ogg'
