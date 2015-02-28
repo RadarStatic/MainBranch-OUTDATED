@@ -103,7 +103,7 @@
 				user.verbs += /mob/living/carbon/proc/immortality
 				user.dna.species = new /datum/species/shadow()
 				user.regenerate_icons()
-			if("To Kill")
+			/*if("To Kill")
 				user << "<B>Your wish is granted, but at a terrible cost...</B>"
 				user << "The Wish Granter punishes you for your wickedness, claiming your soul and warping your body to match the darkness in your heart."
 				ticker.mode.traitors += user.mind
@@ -117,7 +117,7 @@
 					user << "<B>Objective #[obj_count]</B>: [OBJ.explanation_text]"
 					obj_count++
 				user.dna.species = new /datum/species/shadow()
-				user.regenerate_icons()
+				user.regenerate_icons()*/
 			if("Peace")
 				user << "<B>Whatever alien sentience that the Wish Granter possesses is satisfied with your wish. There is a distant wailing as the last of the Faithless begin to die, then silence.</B>"
 				user << "You feel as if you just narrowly avoided a terrible fate..."

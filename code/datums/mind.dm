@@ -525,7 +525,7 @@
 			if(!def_value)//If it's a custom objective, it will be an empty string.
 				def_value = "custom"
 
-		var/new_obj_type = input("Select objective type:", "Objective type", def_value) as null|anything in list("assassinate", "maroon", "debrain", "protect", "destroy", "prevent", "hijack", "escape", "survive", "steal", "download", "nuclear", "capture", "absorb", "custom")
+		var/new_obj_type = input("Select objective type:", "Objective type", def_value) as null|anything in list("assassinate", "maroon", "debrain", "protect", "destroy", "prevent", "escape", "survive", "steal", "download", "nuclear", "capture", "absorb", "custom")
 		if (!new_obj_type) return
 
 		var/datum/objective/new_objective = null
@@ -573,9 +573,9 @@
 				new_objective = new /datum/objective/block
 				new_objective.owner = src
 
-			if ("hijack")
+			/*if ("hijack")
 				new_objective = new /datum/objective/hijack
-				new_objective.owner = src
+				new_objective.owner = src*/
 
 			if ("escape")
 				new_objective = new /datum/objective/escape
