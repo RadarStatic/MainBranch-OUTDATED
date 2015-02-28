@@ -1199,7 +1199,6 @@
 	icon_state = "outlet"
 	density = 1
 	anchored = 1
-	layer = 3 //HOPEFULLY this'll fix that weird bug with the disposal outlets.
 	var/active = 0
 	var/turf/target	// this will be where the output objects are 'thrown' to.
 	var/mode = 0
