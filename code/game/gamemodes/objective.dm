@@ -194,7 +194,7 @@ datum/objective/protect/update_explanation_text()
 
 
 
-datum/objective/hijack
+/*datum/objective/hijack
 	explanation_text = "Hijack the emergency shuttle by escaping alone."
 	dangerrating = 25
 
@@ -217,7 +217,7 @@ datum/objective/hijack/check_completion()
 			if(player.stat != DEAD)			//they're not dead!
 				if(get_turf(player) in shuttle)
 					return 0
-	return 1
+	return 1*/
 
 
 datum/objective/block
