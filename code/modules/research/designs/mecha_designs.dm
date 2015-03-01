@@ -32,6 +32,15 @@ datum/design/odysseus_main
 	build_path = /obj/item/weapon/circuitboard/mecha/odysseus/main
 	category = list("Exosuit Modules")
 
+datum/design/mech_diamond_drill
+	name = "Exosuit Module Design (Diamond Mining Drill)"
+	desc = "An upgraded version of the standard drill."
+	id = "mech_diamond_drill"
+	build_type = MECHFAB
+	req_tech = list("materials" = 4, "engineering" = 3)
+	build_path = /obj/item/mecha_parts/mecha_equipment/tool/drill/diamonddrill
+	category = "Exosuit Equipment"
+
 datum/design/odysseus_peri
 	name = "Exosuit Module (\"Odysseus\" Peripherals Control module)"
 	desc = "Allows for the construction of a \"Odysseus\" Peripheral Control module."

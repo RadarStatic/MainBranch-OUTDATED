@@ -125,15 +125,15 @@
 	build_path = /obj/item/weapon/grenade/chem_grenade/large
 	category = list("Weapons")
 
-/*/datum/design/smg
-	name = "Prototype Submachine Gun"
-	desc = "A prototype weapon made using lightweight materials on a traditional frame, designed to fire standard 9mm rounds."
+datum/design/smg
+	name = "Submachine Gun"
+	desc = "A lightweight, fast firing gun."
 	id = "smg"
 	req_tech = list("combat" = 4, "materials" = 3)
 	build_type = PROTOLATHE
 	materials = list("$metal" = 8000, "$silver" = 2000, "$diamond" = 1000)
-	build_path = /obj/item/weapon/gun/projectile/automatic/proto
-	category = list("Weapons")*/
+	build_path = /obj/item/weapon/gun/projectile/automatic
+	locked = 1
 
 /datum/design/xray
 	name = "Xray Laser Gun"
@@ -144,6 +144,15 @@
 	materials = list("$gold" = 5000,"$uranium" = 10000, "$metal" = 4000)
 	build_path = /obj/item/weapon/gun/energy/xray
 	category = list("Weapons")
+
+datum/design/ammo_9mm
+	name = "Ammunition Box (9mm)"
+	desc = "A box of prototype 9mm ammunition."
+	id = "ammo_9mm"
+	req_tech = list("combat" = 4, "materials" = 3)
+	build_type = PROTOLATHE
+	materials = list("$metal" = 2000)
+	build_path = /obj/item/ammo_box/c9mm
 
 /*/datum/design/ioncarbine
 	name = "Ion Carbine"
@@ -175,25 +184,25 @@
 	build_path = /obj/item/weaponcrafting/reciever
 	category = list("Weapons")*/
 
-/*/datum/design/mag_smg
+datum/design/mag_smg
 	name = "Submachine Gun Magazine (9mm)"
-	desc = "A 20-round magazine for the prototype submachine gun."
+	desc = "A prototype magazine for the submachine gun."
 	id = "mag_smg"
 	req_tech = list("combat" = 4, "materials" = 3)
 	build_type = PROTOLATHE
 	materials = list("$metal" = 2000)
-	build_path = /obj/item/ammo_box/magazine/smgm9mm
-	category = list("Ammo")*/
+	build_path = /obj/item/ammo_box/magazine/msmg9mm
+	category = list("Ammo")
 
-/*/datum/design/stunshell
+datum/design/stunshell
 	name = "Stun Shell"
 	desc = "A stunning shell for a shotgun."
 	id = "stunshell"
 	req_tech = list("combat" = 3, "materials" = 3)
 	build_type = PROTOLATHE
 	materials = list("$metal" = 200)
-	build_path = /obj/item/ammo_casing/shotgun/stunslug
-	category = list("Ammo")*/
+	build_path = /obj/item/ammo_casing/shotgun/stunshell
+	category = list("Ammo")
 
 /datum/design/techshell
 	name = "Unloaded Technological Shotshell"
