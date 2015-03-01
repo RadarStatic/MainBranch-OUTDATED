@@ -19,6 +19,7 @@ Assistant
 			if(findtextEx(H.real_name,"Pooj"))
 				H.equip_to_slot_or_del(new /obj/item/clothing/under/rank/mailman/poojie(H), slot_w_uniform)
 				H.equip_to_slot_or_del(new /obj/item/clothing/head/mailman/poojie(H), slot_head)
+				H.equip_to_slot_or_del(new /obj/item/weapon/storage/backpack/poojie(H), slot_l_hand)
 			else
 				H.equip_to_slot_or_del(new /obj/item/clothing/under/color/grey(H), slot_w_uniform)
 		if("nebulacallisto")
