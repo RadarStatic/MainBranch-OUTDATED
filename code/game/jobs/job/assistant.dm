@@ -19,9 +19,13 @@ Assistant
 			if(findtextEx(H.real_name,"Pooj"))
 				H.equip_to_slot_or_del(new /obj/item/clothing/under/rank/mailman/poojie(H), slot_w_uniform)
 				H.equip_to_slot_or_del(new /obj/item/clothing/head/mailman/poojie(H), slot_head)
+			else
+				H.equip_to_slot_or_del(new /obj/item/clothing/under/color/grey(H), slot_w_uniform)
 		if("nebulacallisto")
 			if(findtextEx(H.real_name,"Vega"))
 				H.equip_to_slot_or_del(new /obj/item/clothing/under/blacktango(H), slot_w_uniform)
+			else
+				H.equip_to_slot_or_del(new /obj/item/clothing/under/color/grey(H), slot_w_uniform)
 		else
 			H.equip_to_slot_or_del(new /obj/item/clothing/under/color/grey(H), slot_w_uniform)
 	H.equip_to_slot_or_del(new /obj/item/clothing/shoes/sneakers/black(H), slot_shoes)

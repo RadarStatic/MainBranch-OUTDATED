@@ -199,7 +199,7 @@ var/list/uplink_items = list()
 	gamemodes = list(/datum/game_mode/nuclear)
 	surplus = 0
 
-/datum/uplink_item/dangerous/syndieborg
+/*/datum/uplink_item/dangerous/syndieborg
 	name = "Syndicate Cyborg"
 	desc = "A cyborg designed and programmed for systematic extermination of non-Syndicate personnel."
 	item = /obj/item/weapon/antag_spawner/borg_tele
@@ -211,7 +211,7 @@ var/list/uplink_items = list()
 /datum/uplink_item/dangerous/syndieborg/spawn_item()
 	var/obj/item/weapon/antag_spawner/borg_tele/T = ..()
 	if(istype(T))
-		T.TC_cost = cost
+		T.TC_cost = cost*/ //syndieborgs r dum
 
 // AMMUNITION
 
