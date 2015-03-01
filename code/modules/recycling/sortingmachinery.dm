@@ -4,6 +4,8 @@
 	icon = 'icons/obj/storage.dmi'
 	icon_state = "deliverycloset"
 	density = 1
+	layer = 3
+	anchored = 0
 	mouse_drag_pointer = MOUSE_ACTIVE_POINTER
 	var/obj/wrapped = null
 	var/sortTag = 0
