@@ -949,7 +949,7 @@ obj/item/weapon/reagent_containers/food/snacks/grown/shell/eggy/add_juice()
 /obj/item/weapon/reagent_containers/food/snacks/grown/shell/moneyfruit
 	seed = /obj/item/seeds/cashseed
 	name = "Money Fruit"
-	desc = "Looks like a lemon with someone buldging from the inside."
+	desc = "Looks like a lemon with something bulging from within."
 	icon_state = "moneyfruit"
 	inside_type = null
 

@@ -84,11 +84,11 @@
 				survive_objective.owner = wizard
 				wizard.objectives += survive_objective
 
-		else
+		/*else
 			if (!(locate(/datum/objective/hijack) in wizard.objectives))
 				var/datum/objective/hijack/hijack_objective = new
 				hijack_objective.owner = wizard
-				wizard.objectives += hijack_objective
+				wizard.objectives += hijack_objective*/
 	return
 
 

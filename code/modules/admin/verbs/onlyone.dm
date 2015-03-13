@@ -15,9 +15,9 @@
 		steal_objective.set_target("nuclear authentication disk")
 		H.mind.objectives += steal_objective
 
-		var/datum/objective/hijack/hijack_objective = new
+		/*var/datum/objective/hijack/hijack_objective = new
 		hijack_objective.owner = H.mind
-		H.mind.objectives += hijack_objective
+		H.mind.objectives += hijack_objective*/
 
 		H << "<B>You are the traitor.</B>"
 		var/obj_count = 1

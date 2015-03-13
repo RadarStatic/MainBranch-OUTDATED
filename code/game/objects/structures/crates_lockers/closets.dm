@@ -4,6 +4,8 @@
 	icon = 'icons/obj/closet.dmi'
 	icon_state = "closed"
 	density = 1
+	anchored = 0
+	layer = 3
 	var/icon_closed = "closed"
 	var/icon_opened = "open"
 	var/opened = 0

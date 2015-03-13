@@ -80,7 +80,7 @@
 	..()
 
 
-/obj/machinery/r_n_d/server/ex_act(severity)
+/obj/machinery/r_n_d/server/ex_act(severity, target)
 	griefProtection()
 	..()
 
@@ -176,6 +176,7 @@
 
 /obj/machinery/computer/rdservercontrol
 	name = "R&D Server Controller"
+	desc = "Used to manage access to research and manufacturing databases."
 	icon_state = "rdcomp"
 	var/screen = 0
 	var/obj/machinery/r_n_d/server/temp_server
@@ -316,6 +317,11 @@
 	return
 
 /obj/machinery/computer/rdservercontrol/attackby(var/obj/item/weapon/D as obj, var/mob/user as mob)
+	..()
+	src.updateUsrDialog()
+	return
+
+/obj/machinery/computer/rdservercontrol/attackby(var/obj/item/weapon/D as obj, var/mob/user as mob)
 	if(istype(D, /obj/item/weapon/card/emag) && !emagged)
 		playsound(src.loc, 'sound/effects/sparks4.ogg', 75, 1)
 		emagged = 1
@@ -324,7 +330,6 @@
 		..()
 	src.updateUsrDialog()
 	return
-
 
 /obj/machinery/r_n_d/server/robotics
 	name = "Robotics R&D Server"
