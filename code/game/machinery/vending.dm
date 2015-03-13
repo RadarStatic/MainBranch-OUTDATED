@@ -787,7 +787,7 @@
 					/obj/item/clothing/head/rabbitears =3, /obj/item/clothing/head/sombrero = 1, /obj/item/clothing/head/sombrero/green = 1, /obj/item/clothing/suit/poncho = 1,
 					/obj/item/clothing/suit/poncho/green = 1, /obj/item/clothing/suit/poncho/red = 1, /obj/item/clothing/under/notnude = 3, /obj/item/clothing/under/maid =3,
 					/obj/item/clothing/under/maid/narky = 2, /obj/item/clothing/suit/narkycuff = 2, /obj/item/clothing/shoes/narkyanklet = 2, /obj/item/weapon/storage/backpack/kittypack = 2,
-					/obj/item/clothing/shoes/sandal/pavi = 2) //Pretty much everything that had a chance to spawn.
+					/obj/item/clothing/shoes/sandal/pavi = 2, /obj/item/clothing/under/diaper = 3) //Pretty much everything that had a chance to spawn.
 	contraband = list(/obj/item/clothing/suit/cardborg = 1,/obj/item/clothing/head/cardborg = 1, /obj/item/clothing/suit/judgerobe = 1,/obj/item/clothing/head/powdered_wig = 1,/obj/item/weapon/gun/magic/wand = 1)
 	premium = list(/obj/item/clothing/suit/hgpirate = 1, /obj/item/clothing/head/hgpiratecap = 1, /obj/item/clothing/head/helmet/roman = 1, /obj/item/clothing/head/helmet/roman/legionaire = 1, /obj/item/clothing/under/roman = 1, /obj/item/clothing/shoes/roman = 1, /obj/item/weapon/shield/riot/roman = 1)
 	refill_canister = /obj/item/weapon/vending_refill/autodrobe
