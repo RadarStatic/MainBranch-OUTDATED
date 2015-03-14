@@ -259,6 +259,7 @@ RCD
 	opacity = 0
 	density = 0
 	anchored = 0.0
+	w_class = 2.0
 	origin_tech = "materials=2"
 	m_amt = 16000
 	g_amt = 8000
