@@ -14,10 +14,10 @@
 	protected_jobs = list("Security Officer", "Warden", "Detective", "Head of Security", "Captain")//AI", Currently out of the list as malf does not work for shit
 	required_players = 0
 	required_enemies = 1
-	recommended_enemies = 4
+	recommended_enemies = 2
 	pre_setup_before_jobs = 1
 
-	var/traitors_possible = 4 //hard limit on traitors if scaling is turned off
+	var/traitors_possible = 2 //hard limit on traitors if scaling is turned off
 	var/scale_modifier = 1 // Used for gamemodes, that are a child of traitor, that need more than the usual.
 
 

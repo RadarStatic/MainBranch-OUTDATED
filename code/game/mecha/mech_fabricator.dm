@@ -121,6 +121,17 @@
 						/obj/item/borg/upgrade/jetpack
 						),
 
+	"Phazon" = list(
+						/obj/item/mecha_parts/chassis/phazon,
+						/obj/item/mecha_parts/part/phazon_torso,
+						/obj/item/mecha_parts/part/phazon_head,
+						/obj/item/mecha_parts/part/phazon_left_arm,
+						/obj/item/mecha_parts/part/phazon_right_arm,
+						/obj/item/mecha_parts/part/phazon_left_leg,
+						/obj/item/mecha_parts/part/phazon_right_leg,
+					 	/obj/item/mecha_parts/part/phazon_armor,
+					 	),
+
 
 
 

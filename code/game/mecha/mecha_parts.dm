@@ -344,6 +344,12 @@
 	construction_cost = list("metal"=20000,"plasma"=10000)
 	origin_tech = "materials=5;bluespace=3;magnets=3"
 
+/obj/item/mecha_parts/part/phazon_armor
+	name="Phazon armor"
+	desc="Phazon armor plates. They are layered with plasma to protect the pilot from the stress of phasing and have unusual properties."
+	icon_state = "phazon_armor"
+	origin_tech = "materials=6;bluespace=5;magnets=5"
+
 ///////// Odysseus
 
 
@@ -493,5 +499,19 @@
 /obj/item/weapon/circuitboard/mecha/odysseus/main
 	name = "circuit board (Odysseus Central Control module)"
 	icon_state = "mainboard"
+
+/obj/item/weapon/circuitboard/mecha/phazon
+	origin_tech = "programming=5"
+
+/obj/item/weapon/circuitboard/mecha/phazon/peripherals
+	name = "circuit board (Phazon Peripherals Control module)"
+	icon_state = "mcontroller"
+
+/obj/item/weapon/circuitboard/mecha/phazon/targeting
+	name = "circuit board (Phazon Weapon Control and Targeting module)"
+	icon_state = "mcontroller"
+
+/obj/item/weapon/circuitboard/mecha/phazon/main
+	name = "circuit board (Phazon Central Control module)"
 
 

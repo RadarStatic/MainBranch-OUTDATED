@@ -33,7 +33,7 @@ var/list/possible_changeling_IDs = list("Alpha","Beta","Gamma","Delta","Epsilon"
 	var/const/prob_right_objective_l = 25 //lower bound on probability of determining the objective correctly
 	var/const/prob_right_objective_h = 50 //upper bound on probability of determining the objective correctly
 
-	var/const/changeling_amount = 4 //hard limit on changelings if scaling is turned off
+	var/const/changeling_amount = 2 //hard limit on changelings if scaling is turned off
 
 /datum/game_mode/changeling/announce()
 	world << "<b>The current game mode is - Changeling!</b>"
