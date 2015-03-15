@@ -63,6 +63,7 @@
 /obj/item/projectile/energy/disabler
 	name = "disabler beam"
 	icon_state = "omnilaser"
+	pass_flags = PASSTABLE | PASSGLASS | PASSGRILLE
 	damage = 34
 	damage_type = STAMINA
 	range = 7
