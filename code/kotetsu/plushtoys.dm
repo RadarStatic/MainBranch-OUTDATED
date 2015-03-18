@@ -33,7 +33,7 @@
 	if(!cooldown)
 		if(user.zone_sel.selecting == "mouth")
 			user.visible_message("<span class='danger'>[user] chews on [src]!</span>")
-			playsound (user, 'sound/items/bikehorn.ogg', 20, 1)
+			playsound (user, 'sound/effects/mousesqueek.ogg', 20, 1)
 			cooldown = 1
 			spawn(30) cooldown = 0
 		else
