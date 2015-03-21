@@ -29,12 +29,7 @@ other types of metals and chemistry for reagents).
 - Add the AUTOLATHE tag to
 */
 
-#define	IMPRINTER	1	//For circuits. Uses glass/chemicals.
-#define PROTOLATHE	2	//New stuff. Uses glass/metal/chemicals
-#define	AUTOLATHE	4	//Uses glass/metal only.
-#define CRAFTLATHE	8	//Uses fuck if I know. For use eventually.
-#define MECHFAB		16 //Remember, objects utilising this flag should have construction_time and construction_cost vars.
-//Note: More then one of these can be added to a design but imprinter and lathe designs are incompatable.
+
 
 datum/design						//Datum for object designs, used in construction
 	var/name = "Name"					//Name of the created object.
@@ -175,7 +170,7 @@ datum/design/proc/CalcReliability(var/list/temp_techs)
 	build_path = /obj/item/weapon/pickaxe/diamond
 	category = list("Mining Designs")
 
-/*/datum/design/drill_diamond
+/datum/design/drill_diamond
 	name = "Diamond Mining Drill"
 	desc = "Yours is the drill that will pierce the heavens!"
 	id = "drill_diamond"
@@ -183,8 +178,8 @@ datum/design/proc/CalcReliability(var/list/temp_techs)
 	build_type = PROTOLATHE
 	materials = list("$metal" = 3000, "$glass" = 1000, "$diamond" = 3750) //Yes, a whole diamond is needed.
 	reliability = 79
-	build_path = /obj/item/weapon/pickaxe/drill/diamonddrill
-	category = list("Mining Designs")*/
+	build_path = /obj/item/weapon/pickaxe/diamonddrill
+	category = list("Mining Designs")
 
 /////////////////////////////////////////
 //////////////Blue Space/////////////////

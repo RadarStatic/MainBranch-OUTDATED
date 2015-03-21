@@ -54,7 +54,7 @@
 		/obj/item/toy/prize/marauder,
 		/obj/item/toy/prize/mauler,
 		/obj/item/toy/prize/odysseus,
-		/obj/item/toy/prize/phazon,
+		/obj/item/toy/prize/	,
 		/obj/item/toy/prize/ripley,
 		/obj/item/toy/prize/seraph,
 		/obj/item/toy/toaster,

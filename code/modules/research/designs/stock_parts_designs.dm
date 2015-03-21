@@ -66,7 +66,7 @@
 	build_path = /obj/item/weapon/stock_parts/scanning_module/adv
 	category = list("Stock Parts")
 
-/datum/design/phasic_scanning
+/datum/design/_scanning
 	name = "Phasic Scanning Module"
 	desc = "A stock part used in the construction of various devices."
 	id = "phasic_scanning"

@@ -39,7 +39,7 @@ datum/design/mech_diamond_drill
 	build_type = MECHFAB
 	req_tech = list("materials" = 4, "engineering" = 3)
 	build_path = /obj/item/mecha_parts/mecha_equipment/tool/drill/diamonddrill
-	category = "Exosuit Equipment"
+	category = ("Exosuit Equipment")
 
 datum/design/odysseus_peri
 	name = "Exosuit Module (\"Odysseus\" Peripherals Control module)"
@@ -141,7 +141,7 @@ datum/design/honker_targ
 	build_path = /obj/item/weapon/circuitboard/mecha/honker/targeting
 	category = list("Exosuit Modules")
 
-/*datum/design/phazon_main
+datum/design/phazon_main
 	name = "Exosuit Module (\"Phazon\" Central Control module)"
 	desc = "Allows for the construction of a \"Phazon\" Central Control module."
 	id = "phazon_main"
@@ -149,9 +149,9 @@ datum/design/honker_targ
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/mecha/phazon/main
-	category = list("Exosuit Modules")*/
+	category = list("Exosuit Modules")
 
-/*datum/design/phazon_peri
+datum/design/phazon_peri
 	name = "Exosuit Module (\"Phazon\" Peripherals Control module)"
 	desc = "Allows for the construction of a \"Phazon\" Peripheral Control module."
 	id = "phazon_peri"
@@ -159,9 +159,9 @@ datum/design/honker_targ
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/mecha/phazon/peripherals
-	category = list("Exosuit Modules")*/
+	category = list("Exosuit Modules")
 
-/*datum/design/phazon_targ
+datum/design/phazon_targ
 	name = "Exosuit Module (\"Phazon\" Weapons & Targeting Control module)"
 	desc = "Allows for the construction of a \"Phazon\" Weapons & Targeting Control module."
 	id = "phazon_targ"
@@ -169,7 +169,7 @@ datum/design/honker_targ
 	build_type = IMPRINTER
 	materials = list("$glass" = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/mecha/phazon/targeting
-	category = list("Exosuit Modules")*/
+	category = list("Exosuit Modules")
 
 ////////////////////////////////////////
 /////////// Mecha Equpment /////////////

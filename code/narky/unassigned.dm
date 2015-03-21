@@ -1793,7 +1793,7 @@ var/list/traitor_test_list = null
 		src << "Will not transform people."
 		VO.tf_factor=VORE_TRANSFORM_SPEED_NONE
 		return
-	selection = input("What do you want to turn people into?") in list("No Change", "Human", "Monkey", "Corgi", "Cat", "Chicken", "Cow", "Lizard", "Mouse")
+	selection = input("What do you want to turn people into?") in list("No Change", "Human", "Monkey", "Corgi", "Cat", "Chicken", "Cow", "Lizard", "Mouse", "Pug", "Crab")
 	switch(selection)
 		if("Human")VO.tf_path=/mob/living/carbon/human
 		if("Monkey")VO.tf_path=/mob/living/carbon/monkey
@@ -1803,6 +1803,8 @@ var/list/traitor_test_list = null
 		if("Cow")VO.tf_path=/mob/living/simple_animal/cow
 		if("Lizard")VO.tf_path=/mob/living/simple_animal/lizard
 		if("Mouse")VO.tf_path=/mob/living/simple_animal/mouse
+		if("Pug")VO.tf_path=/mob/living/simple_animal/pug
+		if("Crab")VO.tf_path=/mob/living/simple_animal/crab
 		else VO.tf_path=null
 	VO.tf_species=null
 	if(VO.tf_path==/mob/living/carbon/human)

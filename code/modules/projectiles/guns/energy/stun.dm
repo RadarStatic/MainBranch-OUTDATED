@@ -7,6 +7,13 @@
 	ammo_type = list(/obj/item/ammo_casing/energy/electrode)
 	cell_type = "/obj/item/weapon/stock_parts/cell/crap"
 
+/obj/item/weapon/gun/energy/gun/advtaser
+	name = "hybrid taser"
+	desc = "A dual-mode taser designed to fire both short-range high-power electrodes and long-range disabler beams."
+	icon_state = "advtaser"
+	ammo_type = list(/obj/item/ammo_casing/energy/electrode, /obj/item/ammo_casing/energy/disabler)
+	origin_tech = null
+
 /obj/item/weapon/gun/energy/taser/cyborg
 	name = "taser gun"
 	desc = "An integrated taser that draws directly from a cyborg's power cell. The weapon contains a limiter to prevent the cyborg's power cell from overheating."
