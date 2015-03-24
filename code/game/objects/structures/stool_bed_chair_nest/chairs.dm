@@ -2,6 +2,7 @@
 	name = "chair"
 	desc = "You sit in this. Either by will or force."
 	icon_state = "chair"
+	layer = 3
 
 /obj/structure/stool/bed/chair/New()
 	if(anchored)
@@ -79,11 +80,13 @@
 	icon_state = "wooden_chair"
 	name = "wooden chair"
 	desc = "Old is never too old to not be in fashion."
+	layer = 3
 
 /obj/structure/stool/bed/chair/wood/wings
 	icon_state = "wooden_chair_wings"
 	name = "wooden chair"
 	desc = "Old is never too old to not be in fashion."
+	layer = 3
 
 /obj/structure/stool/bed/chair/wood/attackby(obj/item/weapon/W as obj, mob/user as mob)
 	if(istype(W, /obj/item/weapon/wrench))

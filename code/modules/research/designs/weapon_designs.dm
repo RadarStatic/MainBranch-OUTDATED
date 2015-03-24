@@ -140,6 +140,7 @@ datum/design/smg
 	materials = list("$metal" = 8000, "$silver" = 2000, "$diamond" = 1000)
 	build_path = /obj/item/weapon/gun/projectile/automatic
 	locked = 1
+	category = list("Weapons")
 
 /datum/design/xray
 	name = "Xray Laser Gun"
@@ -161,6 +162,7 @@ datum/design/ammo_9mm
 	build_type = PROTOLATHE
 	materials = list("$metal" = 2000)
 	build_path = /obj/item/ammo_box/c9mm
+	category = list("Ammo")
 
 /*/datum/design/ioncarbine
 	name = "Ion Carbine"
