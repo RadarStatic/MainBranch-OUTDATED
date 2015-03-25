@@ -1,6 +1,6 @@
 /obj/machinery/deepfryer
         name = "Deep Fryer"
-        icon = 'icons/obj/cooking_machines.dmi'
+        icon = 'icons/obj/kitchen.dmi'
           desc = "Deep fried <i>everything</i>."
           icon_state = "fryer_off"
           layer = 3.0
