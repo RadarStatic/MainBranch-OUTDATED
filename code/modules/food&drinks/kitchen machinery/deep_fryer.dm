@@ -30,8 +30,8 @@
                   on = 0
                   var/obj/item/weapon/reagent_containers/food/snacks/deepfryholder/S = new(get_turf(src))
                   if(istype(O, /obj/item/weapon/reagent_containers/))
-                  var/obj/item/weapon/reagent_containers/food = O
-                  food.reagents.trans_to(S, food.reagents.total_volume)
+                         var/obj/item/weapon/reagent_containers/food = O
+                         food.reagents.trans_to(S, food.reagents.total_volume)
                   S.color = "#FFAD33"
                   S.icon = O.icon
                   S.icon_state = O.icon_state
@@ -39,4 +39,4 @@
                   S.desc = O.desc
                   playsound(src.loc, 'sound/machines/ding.ogg', 50, 1)
                   qdel(O)
-return
+                  return
