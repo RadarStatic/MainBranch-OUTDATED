@@ -1393,7 +1393,8 @@
 	reagents.add_reagent("nutriment", 6)
 	reagents.add_reagent("toxin", 5)
 	bitesize = 3
-	/obj/item/weapon/reagent_containers/food/snacks/deepfryholder
+
+/obj/item/weapon/reagent_containers/food/snacks/deepfryholder
 	name = "Deep Fried Foods Holder Obj"
 	desc = "If you can see this description the code for the deep fryer fucked up."
 	icon = 'icons/obj/food.dmi'
