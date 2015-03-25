@@ -66,7 +66,7 @@
 	damage = 34
 	damage_type = STAMINA
 	range = 15
-	pass_flags = PASSGLASS | PASSGRILLE
+	pass_flags = PASSGLASS | PASSGRILLE | PASSTABLE
 
 /obj/item/projectile/energy/disabler/Range()
 	range--
