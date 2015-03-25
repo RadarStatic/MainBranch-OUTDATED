@@ -23,7 +23,7 @@
 		user.drop_item()
 		O.loc = src
 		icon_state = "fryer_on"
-		sleep(150)
+		sleep(120)
 		icon_state = "fryer_off"
 		on = 0
 		var/obj/item/weapon/reagent_containers/food/snacks/deepfryholder/S = new(get_turf(src))
