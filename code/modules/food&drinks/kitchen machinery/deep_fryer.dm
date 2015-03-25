@@ -14,9 +14,6 @@
 	if(on)
 		user << "The machine is already active, please wait."
 		return
-	if(istype(O, /obj/item/weapon/reagent_containers/food/snacks/deepfryholder))
-		user << "<span class='warning'>You can't deepfry what is already deep fried!</span>"
-		return
 	if(!user.unEquip(O))
 		user << "<span class='warning'>You cannot deepfry [O].</span>"
 		return
