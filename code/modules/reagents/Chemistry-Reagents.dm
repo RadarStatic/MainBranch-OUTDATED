@@ -1323,7 +1323,7 @@ datum/reagent/toxin/mutagen/reaction_mob(var/mob/living/carbon/M, var/method=TOU
 datum/reagent/toxin/mutagen/on_mob_life(var/mob/living/carbon/M)
 	if(!istype(M))	return
 	if(!M) M = holder.my_atom
-	M.apply_effect(5,IRRADIATE,0)
+	M.apply_effect(2,IRRADIATE,0)
 	..()
 	return
 
