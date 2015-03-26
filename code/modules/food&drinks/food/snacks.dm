@@ -13,7 +13,7 @@
 	var/dried_type = null
 	var/potency = null
 	var/dry = 0
-
+	var/deepfried = 0
 	//Placeholder for effect that trigger on eating that aren't tied to reagents.
 /obj/item/weapon/reagent_containers/food/snacks/proc/On_Consume()
 	if(!usr)	return
@@ -1393,3 +1393,14 @@
 	reagents.add_reagent("nutriment", 6)
 	reagents.add_reagent("toxin", 5)
 	bitesize = 3
+
+/obj/item/weapon/reagent_containers/food/snacks/deepfryholder
+	name = "Deep Fried Foods Holder Obj"
+	desc = "If you can see this description the code for the deep fryer fucked up."
+	icon = 'icons/obj/food.dmi'
+	icon_state = "deepfried_holder_icon"
+	bitesize = 2
+	deepfried = 1
+	New()
+		..()
+		reagents.add_reagent("nutriment", 3)

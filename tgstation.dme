@@ -954,6 +954,7 @@
 #include "code\modules\food&drinks\recipes\microwave\recipes_sandwichtoast.dm"
 #include "code\modules\food&drinks\recipes\microwave\recipes_soup.dm"
 #include "code\modules\food&drinks\recipes\microwave\recipes_spaghetti.dm"
+#include "code\modules\food&drinks\kitchen machinery\deep_fryer.dm"
 #include "code\modules\hydroponics\biogenerator.dm"
 #include "code\modules\hydroponics\grown.dm"
 #include "code\modules\hydroponics\growninedible.dm"
