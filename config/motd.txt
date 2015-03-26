@@ -1,0 +1,41 @@
+<!-- Most valid html will work in here, excluding images. -->
+
+
+========================
+SQL database finally established! This mean the Librarian isnt useless as hell anymore! This allows allows for an easier banning system. So dont be a jerkoff.
+========================
+
+
+
+
+Welcome to the Citadel Station 13!
+
+The station is currently undergoing a massive overhaul with a heavy focus on community suggestions and gameplay.
+
+
+-Rules-
+0. Always use F1 to ask an admin if you are unsure about something
+1. Dont grief
+2. Dont metagame
+       -No grudging from past rounds
+       -Dont import drama
+       -Dont multikey
+
+
+-Vore Panel-
+This server does use a modified code that allows players to devour one another. While outright devouring and killing someone is against rules unless set as an antagonist role, you do have the option via the Vore Panel to disable digestion. This panel also allows you to change different methods of vore. In order to devour someone, simply change your intent option (the four tiles at the lower right corner) until it is set to Grab. (Yellow). Once set, click on another play then select Upgrade on your HUD. After which, click yourself and within a short amount of time you will devour select person.
+
+<b>Station Forum:</b>http://bit.ly/1tW5rOY (Latest News 12/3/2014)
+<b>FurAffinity Post:http://bit.ly/1GQNt7y</b>
+<b>Donations:</b> http://bit.ly/1xGAS1v
+<b>Ekas Thread: </b>http://bit.ly/1tsnvx1
+<b>Public Skype: </b>http://tinyurl.com/okcfhex
+
+<b>Keep Note: We are still looking for sprite artists and coders to help out the server!</b>
+
+<i><b>Note on being WHITELISTED:</b></i>: Some people seem to think being whitelisted requires some form of prerequisite. It does <i><b>*NOT*</i></b>. This is simply put in place to prevent trolls from gaining instant access to power jobs at the start. All you have to do is either send a message to JayFoxe on FA, CodeX on Ekas, or ahelp an admin here. 
+
+
+<b>Important News(2/13/2015): Minor update. Names and prefs were saved, but species were wiped. Be sure to reselect them.</b>
+
+<b>Open Beta Server: </b>byond://waystation.byondpanel.com:55130 <b>[ONLINE]</b>
