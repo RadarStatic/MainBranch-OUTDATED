@@ -28,7 +28,7 @@
 		frying = I
 		frying.loc = src
 		icon_state = "fryer_on"
-		sleep(120)
+		sleep(160)
 
 		if(frying && frying.loc == src)
 			var/obj/item/weapon/reagent_containers/food/snacks/deepfryholder/S = new(get_turf(src))
