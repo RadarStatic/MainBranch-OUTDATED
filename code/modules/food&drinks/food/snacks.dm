@@ -1403,4 +1403,4 @@
 	deepfried = 1
 	New()
 		..()
-		reagents.add_reagent("nutriment", 3)
+		reagents.add_reagent("nutriment", 1)
