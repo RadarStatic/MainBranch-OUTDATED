@@ -372,3 +372,12 @@ datum/design/mech_generator_nuclear
 	materials = list("$metal"=10000,"$glass"=1000,"$silver"=500)
 	construction_time = 100
 	category = list("Exosuit Equipment")
+
+datum/design/drone
+	name = "Drone Shell"
+	desc = "Allows for the construction of Drones"
+	id = "drone_shell"
+	build_type = MECHFAB
+	req_tech = list("programming" = 2,"biotech" = 4)
+	build_path = /obj/item/drone_shell
+	category = list("Misc")

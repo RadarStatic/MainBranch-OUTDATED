@@ -5,6 +5,7 @@
 	icon_state = "stool"
 	anchored = 1.0
 	pressure_resistance = 15
+	layer = 3.0
 
 /obj/structure/stool/ex_act(severity)
 	switch(severity)

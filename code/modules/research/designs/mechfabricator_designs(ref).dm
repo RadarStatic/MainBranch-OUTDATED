@@ -1,7 +1,7 @@
 ///////////////////////////////////
 //////////Mecha Module Disks///////
 ///////////////////////////////////
-
+//Only using this as a reference. Do *NOT* compile with this.
 datum/design/ripley_main
 	name = "Exosuit Design (APLU \"Ripley\" Central Control module)"
 	desc = "Allows for the construction of a \"Ripley\" Central Control module."

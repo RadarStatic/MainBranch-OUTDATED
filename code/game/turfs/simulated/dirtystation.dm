@@ -79,11 +79,11 @@
 	if(istype(A, /area/crew_quarters/toilet) || istype(A, /area/crew_quarters/locker/locker_toilet) || istype(A, /area/crew_quarters/bar))
 		if(prob(40))
 			if(prob(90))
-				//new /obj/effect/decal/cleanable/vomit/old(src)
+				new /obj/effect/decal/cleanable/vomit/old(src)
 				if(prob(50))
-					new /obj/effect/decal/cleanable/sex/semen(src)
+					//new /obj/effect/decal/cleanable/sex/semen(src)
 				else
-					new /obj/effect/decal/cleanable/sex/femjuice(src)
+					//new /obj/effect/decal/cleanable/sex/femjuice(src)
 			else
 				new /obj/effect/decal/cleanable/blood/old(src)
 		else
@@ -136,7 +136,7 @@
 				if(istype(A, /area/medical/morgue))
 					new /obj/item/weapon/ectoplasm(src)
 				else
-					//new /obj/effect/decal/cleanable/vomit/old(src)
+					new /obj/effect/decal/cleanable/vomit/old(src)
 					new /obj/effect/decal/cleanable/blood/old(src)
 		return
 

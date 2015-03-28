@@ -404,7 +404,21 @@ obj/vore_preferences
 				else
 					dat +="<img src=cross-circle.png>You are not whitelisted. You will not be able to use head roles while the head whitelisting is toggled on. To become whitelisted, keep playing until we know you're not around just to cause trouble. You can also have someone trusted vouch for you."
 				dat += "<BR><h2>Donations</h2>"
-				dat += "Section pending."
+				dat += "In order to keep the server running, payment is required monthly. It is greatly appreciated for even the smallest amount of donations. Without them, it becomes difficult to keep the server afloat."
+				dat += "By donating you can prevent this issue and allow it to continue running. As well as helping out the server, your name will be added to the donator list and you will be priority in having suggestions, ideas, and <b>certain</b> cosmetics added for personal use."
+				dat += "<BR>"
+				dat += {"
+				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+				<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+				</form>
+
+
+
+				"}
 
 
 		var/datum/browser/popup = new(user, "voreprefs", "<div align='center'>Vore Panel</div>", 0, 0, src)
