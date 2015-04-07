@@ -82,6 +82,14 @@ silicate
 	required_reagents = list("silicon" = 1, "potassium" = 1, "nitrogen" = 1)
 	result_amount = 3
 
+/datum/chemical_reaction/masiform
+	name = "Masiform"
+	id = "masiform"
+	result = "masiform"
+	required_catalysts = list("plasma" = 10)
+	required_reagents = list("anti_toxin" = 2, "nitrogen" = 2, "arithrazine" = 1)
+	result_amount = 2
+
 /datum/chemical_reaction/mutagen
 	name = "Unstable mutagen"
 	id = "mutagen"
