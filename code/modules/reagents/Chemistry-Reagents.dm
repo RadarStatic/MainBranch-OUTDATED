@@ -1273,6 +1273,23 @@ datum/reagent/ethylredoxrazine/on_mob_life(var/mob/living/M as mob)
 	..()
 	return
 
+datum/reagent/masiform
+	name = "Masiform"
+	id = "masiform"
+	description = "Masiform is a more potent version of Dylovene, taking advantage of the wonderous properties of Plasma."
+	reagent_state = LIQUID
+	color = "#CFE597" // rgb: 207, 229, 151
+
+datum/reagent/masiform/on_mob_life(var/mob/living/M as mob)
+	if(!M) M = holder.my_atom
+	M.reagents.remove_all_type(/datum/reagent/toxin, 3*REM, 0, 1)
+	M.drowsyness = max(M.drowsyness-5*REM, 0)
+	M.hallucination = max(0, M.hallucination - 15*REM)
+	M.adjustToxLoss(-4*REM)
+	M.adjustOxyLoss(-1*REM)
+	..()
+	return
+
 //////////////////////////Poison stuff///////////////////////
 
 datum/reagent/toxin
