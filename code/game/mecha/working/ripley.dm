@@ -2,7 +2,7 @@
 	desc = "Autonomous Power Loader Unit. The workhorse of the exosuit world."
 	name = "\improper APLU \"Ripley\""
 	icon_state = "ripley"
-	step_in = 6
+	step_in = 3
 	max_temperature = 20000
 	health = 200
 	wreckage = /obj/structure/mecha_wreckage/ripley
@@ -36,7 +36,7 @@
 	desc = "OH SHIT IT'S THE DEATHSQUAD WE'RE ALL GONNA DIE"
 	name = "\improper DEATH-RIPLEY"
 	icon_state = "deathripley"
-	step_in = 3
+	step_in = 1
 	opacity=0
 	lights_power = 60
 	wreckage = /obj/structure/mecha_wreckage/ripley/deathripley
